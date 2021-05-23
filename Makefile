@@ -9,4 +9,4 @@ install:
 
 .PHONY: test
 test:
-	poetry run pytest --cov=my_package --cov-fail-under=80
+	poetry run pytest --cov=my_package --cov-fail-under=80 --cov-report xml
