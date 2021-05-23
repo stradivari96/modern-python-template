@@ -20,5 +20,5 @@ make install
 
 3. Run test
 ```
-make install
+make test
 ```
