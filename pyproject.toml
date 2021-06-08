@@ -20,5 +20,5 @@ black = "^21.5b2"
 isort = "^5.8.0"
 pre-commit = "^2.12.1"
 pytest = "^6.2.4"
-pytest-cov = "^2.11.1"
+pytest-cov = "^2.12.1"
 
