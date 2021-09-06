@@ -12,17 +12,17 @@ Inspired by https://github.com/TezRomacH/python-package-template
 * Poetry: https://python-poetry.org/
 
 ## Getting started
-1. Download poetry
-```commandline
-make download-poetry
-```
+1. Install poetry
+
+https://python-poetry.org/docs/#installation
 
 2. Install dependencies
 ```
-make install
+poetry install
+poetry run pre-commit install
 ```
 
 3. Run test
 ```
-make test
+poetry run pytest --cov=my_package --cov-fail-under=80 --cov-report xml
 ```
