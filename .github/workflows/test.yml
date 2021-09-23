@@ -25,6 +25,9 @@ jobs:
     - name: Install dependencies
       run: poetry install
 
+    - name: Pre-commit
+      run: poetry run pre-commit run --all-files
+
     - name: Test with pytest
       run: poetry run pytest --cov=my_package --cov-fail-under=80 --cov-report xml
 
